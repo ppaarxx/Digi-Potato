@@ -25,7 +25,7 @@
 <h2>📂 Files Included</h2>
 <ul>
   <li><code>model_architecture.json</code>: The architecture of the trained model.</li>
-  <li><code>model_weights.h5</code>: The weights of the trained model.</li>
+  <li><code>model_weights.weights.h5</code>: The weights of the trained model.</li>
 </ul>
 
 <h2>🚀 How It Works</h2>
