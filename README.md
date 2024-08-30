@@ -1,12 +1,46 @@
-Digi Potato
-Digi Potato is an innovative AI-powered model designed for efficient processing and tracking of video footage using TensorFlow and JAX. The project utilizes machine learning techniques to recognize, track, and analyze objects or individuals in real-time video streams, assigning unique identifiers and recording details like entry and exit times. This robust system enables consistent object re-identification and tracks durations with precision. The model is built with TensorFlow's advanced capabilities, and it supports exporting trained models for further deployment and analysis.
+<h1 align="center">Digi Potato - Potato Disease Detection</h1>
 
-Key Features:
-Object Tracking: Assigns unique IDs to objects or people in the video, tracks their movement, and logs their presence with timestamps.
-Real-Time Analytics: Records detailed entry and exit times of tracked objects or individuals.
-Model Export: Supports model architecture and weight saving for further deployment.
-Video Processing: Efficiently processes video streams using TensorFlow and JAX frameworks.
-Project Structure:
-Model Architecture: Custom TensorFlow model with dense layers for video data processing.
-Weights Export: Saves model architecture in JSON and weights in .h5 format.
-Tracking Algorithm: Implements advanced object tracking for real-time applications.
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-TensorFlow-blue" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/Plant%20Disease-Potato-green" alt="Plant Disease">
+  <img src="https://img.shields.io/badge/Status-Under%20Development-orange" alt="Status">
+</p>
+
+<h2>📄 Project Overview</h2>
+<p>
+  <strong>Digi Potato</strong> is a machine learning project designed to identify the health status of potato plants by analyzing images of the crop. It classifies potato plants as <strong>Early Blight</strong>, <strong>Late Blight</strong>, or <strong>Healthy</strong> using a deep learning model trained on a dataset of plant images.
+</p>
+
+<h2>⚙️ Features</h2>
+<ul>
+  <li>Trained with TensorFlow to achieve high accuracy in plant disease classification.</li>
+  <li>Capable of distinguishing between Early Blight, Late Blight, and Healthy potato plants.</li>
+  <li>Uses convolutional neural networks (CNNs) for image-based disease detection.</li>
+</ul>
+
+<h2>🖼️ Dataset</h2>
+<p>
+  The model is trained on a dataset containing labeled images of potato leaves affected by early blight, late blight, and healthy leaves. Each image is preprocessed and fed into the model to ensure accuracy in disease prediction.
+</p>
+
+<h2>📂 Files Included</h2>
+<ul>
+  <li><code>model_architecture.json</code>: The architecture of the trained model.</li>
+  <li><code>model_weights.h5</code>: The weights of the trained model.</li>
+</ul>
+
+<h2>🚀 How It Works</h2>
+<ol>
+  <li>Upload an image of a potato plant leaf.</li>
+  <li>The trained model analyzes the image to detect if the leaf shows signs of early blight, late blight, or is healthy.</li>
+  <li>The result is returned, helping farmers and researchers monitor the health of their crops.</li>
+</ol>
+
+<h2>🔧 Requirements</h2>
+<ul>
+  <li>Python 3.x</li>
+  <li>TensorFlow</li>
+</ul>
+
+<h2>📜 License</h2>
+<p>This project is open-source and available under the <a href="LICENSE">MIT License</a>.</p>
