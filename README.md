@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Machine%20Learning-TensorFlow-blue" alt="Machine Learning">
   <img src="https://img.shields.io/badge/Plant%20Disease-Potato-green" alt="Plant Disease">
-  <img src="https://img.shields.io/badge/Status-Under%20Development-orange" alt="Status">
 </p>
 
 <h2>📄 Project Overview</h2>
